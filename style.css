@@ -87,15 +87,29 @@
     margin: 0px 5px;
 }
 
-.who .we-back-img {
+
+/* .who .we-back-img {
+    
     height: 315px;
     width: 100%;
-    background: url(../Image/we.jpg);
+    background: url(../Image/trv.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover cover;
     border-radius: 20px;
-}
+    object-fit: cover;
+} */
+
+
+/* .who .we-back-img img {
+    height: 315px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover cover;
+    border-radius: 20px;
+    object-fit: cover;
+} */
 
 .features h4 {
     padding: 8px 0px;
