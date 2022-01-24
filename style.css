@@ -217,6 +217,40 @@
     background-color: #FF9F1C;
 }
 
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* Add a hover effect if you want */
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/* Set a specific color for each brand */
+
+
+/* Facebook */
+
+.follow-us .icons .fb .fa-facebook {
+    background: transparent;
+    color: white;
+}
+
+
+/* Twitter */
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
 .reviews .review-container {
     width: 360px;
     height: 200px;
