@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/57491ef94b.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Contacts</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <!-- <a class="navbar-brand" style="margin-right: 10rem;" href="#">navbar</a> -->
+            <img src="Image/logo.png" style="margin-right: 10rem;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Service</a>
+                    </li>
+
+
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid details-container d-flex" style="margin-top: 3rem;">
+        <div class="container details-box text-center">
+            <img src="Image/location.svg" alt="">
+            <h4> Our office </h4>
+            <h6> Paknajol,Thamel <br /> Kathmandu, Nepal 44600. </h6>
+        </div>
+        <div class="container details-box text-center mt-5 mt-sm-0">
+            <img src="Image/phone.svg" alt="">
+            <h4> Phone Number </h4>
+            <h6>
+                +977-1-4212064
+            </h6>
+
+        </div>
+        <div class="container details-box text-center mt-5 mt-sm-0">
+            <img src="Image/mail.svg" alt="">
+            <h4 class="mt-4"> Email </h4>
+            <h6>
+                desperatenepaltravel@gmail.com
+            </h6>
+        </div>
+    </div>
+
+
+    <section class="container-fluid d-flex align-items-center justify-content-center mt-2">
+        <div class="container  text-center mt-5">
+            <h1> Contact Us </h1>
+            <div class="rows pt-5 pb-5 text-start">
+                <form id="form" method="post" class="form d-flex flex-column align-items-center justify-content-center">
+                    <div class="col-12 col-lg-6 d-flex flex-column">
+                        <label for="itinerary"> Request Your Itinerary: </label>
+                        <input type="text" class="form-control" name="itinerary" id="itinerary" />
+                    </div>
+
+                    <div class="col-12 col-lg-6 d-flex flex-column">
+                        <label for="ContactPerson"> Contact Person: </label>
+                        <input type="text" class="form-control" name="ContactPerson" id="ContactPerson" />
+                    </div>
+
+                    <div class="col-12 col-lg-6 d-flex flex-column">
+                        <label for="state/country"> State/ Country: </label>
+                        <input type="text" class="form-control" name="state/country" id="state/country" />
+                    </div>
+                    <div class="col-12 col-lg-6 d-flex flex-column">
+                        <label for="number"> Telephone/ Mobile: </label>
+                        <input type="number" class="form-control" name="number" id="number" />
+                    </div>
+
+                    <div class="col-12 col-lg-6 d-flex flex-column">
+                        <label for="email"> Email: </label>
+                        <input type="email" class="form-control" name="email" id="email" />
+                    </div>
+
+                    <div class="col-12 col-lg-6 d-flex flex-column">
+                        <label for="numberOfPerson"> No of Person in your Group: </label>
+                        <input type="number" class="form-control" name="numberOfPerson" id="numberOfPerson" />
+                    </div>
+
+                    <div class="col-12 col-lg-6 d-flex">
+                        <div class="col-md-3 ">
+                            <label for="adult"> Adult: </label>
+                            <input type="number" class="form-control" name="adult" id="adult" />
+                        </div>
+
+                        <div class="col-md-3  ">
+                            <label for="child"> Child </label>
+                            <input type="number" class="form-control" name="child" id="child" />
+                        </div>
+
+                        <div class="col-md-3  ">
+                            <label for="infant"> Infant </label>
+                            <input type="number" class="form-control" name="infant" id="infant" />
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-lg-6 d-flex flex-column">
+                        <label for="numberOfDays"> No of Days: </label>
+                        <input type="number" class="form-control" name="numberOfDays" id="numberOfDays" />
+                    </div>
+
+                    <div class="col-12 col-lg-6 d-flex flex-column">
+                        <label for="place"> Interested to Visit Place: </label>
+                        <input type="text" class="form-control" name="instrested_places" id="instrested_places" />
+                    </div>
+
+                    <div class="col-12 col-lg-6 d-flex flex-column">
+                        <label for="message"> Message: </label>
+                        <textarea rows="8" class="form-control" name="message" id="message"> </textarea>
+                    </div>
+                    <input type="submit" id="button" value="Send Email">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <p style="margin-top: 3rem;margin-left: 3rem;">© desperatenepaltravel, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        emailjs.init('user_13kfTSBMeCQ7tsASyAree')
+    </script>
+    <script>
+        const btn = document.getElementById('button');
+
+        document.getElementById('form')
+            .addEventListener('submit', function(event) {
+                event.preventDefault();
+
+                btn.value = 'Sending...';
+
+                const serviceID = 'default_service';
+                const templateID = 'template_maj2bod';
+
+                emailjs.sendForm(serviceID, templateID, this)
+                    .then(() => {
+                        btn.value = 'Send Email';
+                        alert('Sent!');
+                    }, (err) => {
+                        btn.value = 'Send Email';
+                        alert(JSON.stringify(err));
+                    });
+            });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
