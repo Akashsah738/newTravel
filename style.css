@@ -88,7 +88,7 @@
 }
 
 .who .we-back-img {
-    height: 455px;
+    height: 550px;
     width: 100%;
     background: url(../Image/trv.jpg);
     background-position: center;
@@ -669,12 +669,6 @@ form .submit {
     }
     .rwd-hide {
         display: none;
-    }
-    .middle-header h1 span {
-        font-size: 25px;
-    }
-    .who .we-back-img {
-        width: 100%;
     }
 }
 
