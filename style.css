@@ -87,10 +87,8 @@
     margin: 0px 5px;
 }
 
-
-/* .who .we-back-img {
-    
-    height: 315px;
+.who .we-back-img {
+    height: 455px;
     width: 100%;
     background: url(../Image/trv.jpg);
     background-position: center;
@@ -98,7 +96,7 @@
     background-size: cover cover;
     border-radius: 20px;
     object-fit: cover;
-} */
+}
 
 
 /* .who .we-back-img img {
@@ -674,6 +672,9 @@ form .submit {
     }
     .middle-header h1 span {
         font-size: 25px;
+    }
+    .who .we-back-img {
+        width: 100%;
     }
 }
 
