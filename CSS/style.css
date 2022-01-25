@@ -1,4 +1,4 @@
-.header {
+    .header {
     height: 100vh;
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.5))), url(../Image/mtv1.jpg);
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../Image/mtv1.jpg);
@@ -679,17 +679,14 @@ form .submit {
     .rwd-hide {
         display: none;
     }
-    .who .we-back-img {
+    /* .who .we-back-img {
         height: 171px;
     }
-}
-
-@media screen and (max-width: 400px) {
-    .customer {
-        padding-top: 2.5rem !important;
-        padding-bottom: 1.5rem !important;
+} */
+    @media screen and (max-width: 400px) {
+        .customer {
+            padding-top: 2.5rem !important;
+            padding-bottom: 1.5rem !important;
+        }
     }
-}
-
-
-/*# sourceMappingURL=style.css.map */
+    /*# sourceMappingURL=style.css.map */
